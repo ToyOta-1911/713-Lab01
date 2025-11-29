@@ -13,3 +13,7 @@ if (typeof x === 'string') {
 let i = 0
 i = 'hello' as any
 console.log(i);
+import add, { subtract } from from '/function-transfer-test.ts';
+const result = add(1,2) + 0;
+console.log(result, 'type of result:', typeof result);
+
